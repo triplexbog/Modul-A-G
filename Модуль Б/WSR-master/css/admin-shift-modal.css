@@ -1,0 +1,110 @@
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 700px;
+    height: 500px;
+
+    background-color: #F9EEFF;
+    border: 4px #EF7BBA solid;
+    border-radius: 20px;
+}
+.modal-title{
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px #EF7BBA solid;
+}
+.modal-title h3{
+    font-size: 24px;
+    color: #EF7BBA;
+}
+.modal-body{
+    width: 100%;
+    height: 70%;
+    overflow-y: auto;
+}
+.modal-footer{
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-top: 4px #EF7BBA solid;
+}
+.modal-save{
+    width: 175px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    color: #EF7BBA;
+    font-weight: bold;
+
+    border-radius: 15px;
+    border: 2px #EF7BBA solid;
+    background-color: #F8B9E4;
+    outline: none;
+    cursor: pointer;
+}
+.modal-reset{
+    width: 175px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    color: #EF7BBA;
+    font-weight: bold;
+
+    border-radius: 15px;
+    border: 2px #EF7BBA solid;
+    background-color: #F8B9E4;
+    outline: none;
+    cursor: pointer;
+}
+.worker{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px #EF7BBA solid;
+}
+.worker-id,
+.worker-role{
+    font-size: 14px;
+    color: #EF7BBA;
+    font-weight: bold;
+}
+.worker-name{
+    color: #C290E5;
+    font-size: 22px;
+    font-weight: bold;
+}
+.worker-check{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.worker-check input{
+    width: 30px;
+    height: 30px;
+}

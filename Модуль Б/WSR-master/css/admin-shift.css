@@ -1,0 +1,142 @@
+body{
+    background-color: #F9EEFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+section{
+    width: 90%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+section > div{
+    width: 45%;
+    height: 95%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.workers-title,
+.orders-title{
+    color: #EF7BBA;
+    font-size: 18px;
+    font-weight: bold;
+}
+.workers-area,
+.orders-area{
+    width: 100%;
+    height: 90%;
+    border: 4px #EF7BBA solid;
+    border-radius: 10px;
+    overflow-y: auto;
+    position: relative;
+}
+.worker-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 2px #EF7BBA solid;
+    cursor: pointer;
+}
+.worker-bottom figure {
+    margin: 0 20px;
+    border: 2px #C290E5 solid;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.worker-bottom figure img{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    object-fit: cover;
+}
+.worker-bottom p{
+    color: #C290E5;
+    font-size: 24px;
+    font-weight: bold;
+}
+.order{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px #EF7BBA solid;
+}
+.order-id{
+    color: #C290E5;
+    font-size: 24px;
+    font-weight: bold;
+}
+.table,
+.count,
+.guests{
+    color: #EF7BBA;
+    font-size: 18px;
+    font-weight: bold;
+}
+.worker{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px #EF7BBA solid;
+}
+.worker figure{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    border: 2px #EF7BBA solid;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.worker-id,
+.worker-role{
+    font-size: 14px;
+    color: #EF7BBA;
+    font-weight: bold;
+}
+.worker-name{
+    color: #C290E5;
+    font-size: 22px;
+    font-weight: bold;
+}
+.close-shift{
+    margin: 25px 0;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    color: #EF7BBA;
+    font-weight: bold;
+
+    border-radius: 20px;
+    border: 2px #EF7BBA solid;
+    background-color: #F8B9E4;
+    outline: none;
+    cursor: pointer;
+}

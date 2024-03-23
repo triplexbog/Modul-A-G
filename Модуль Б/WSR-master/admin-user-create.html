@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация сотрудника</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/admin-user-create.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="">
+
+        <div></div>
+    </header>
+    <section>
+        <form action="">
+            <label for="surname">
+                <p>Фамилия</p>
+                <input type="text" name="surname" id="surname">
+            </label>
+            <label for="name">
+                <p>Имя</p>
+                <input type="text" name="name" id="name">
+            </label>
+            <label for="password">
+                <p>Пароль</p>
+                <input type="password" name="password" id="password">
+            </label>
+            <label for="password_confirmation">
+                <p>Повторите пароль</p>
+                <input type="password" name="password_confirmation" id="password_confirmation">
+            </label>
+            <label for="role">
+                <p>Роль</p>
+                <select name="role" id="role">
+                    <option>Повар</option>
+                    <option>Официант</option>
+                    <option>Админ</option>
+                </select>
+            </label>
+            <button type="submit">Создать</button>
+        </form>
+    </section>
+</body>
+</html>

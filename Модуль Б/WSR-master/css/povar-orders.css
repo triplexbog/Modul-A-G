@@ -1,0 +1,129 @@
+body{
+    overflow-x: hidden;
+}
+section{
+    width: 100%;
+    height: 90%;
+    padding: 25px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 125px;
+    flex-wrap: wrap;
+}
+.order{
+    width: 625px;
+    height: 600px;
+    border: 4px #C290E5 solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.order-title{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 4px #C290E5 solid;
+}
+.order-title > div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.order-title > div > p > span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #C290E5;
+}
+.order-id{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #EF7BBA;
+    border-bottom: 2px #EF7BBA solid;
+}
+.order-status{
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #C290E5;
+}
+.order-body{
+    width: 100%;
+    height: 70%;
+    overflow-y: auto;
+}
+.product{
+    width: 100%;
+    height: 75px;
+    border-bottom: 4px #C290E5 solid;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.product > div{
+    margin-left: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+.product > div > p:nth-child(1){
+    font-size: 18px;
+    color: #EF7BBA;
+}
+.product > div > p:nth-child(2){
+    font-size: 14px;
+    color: #C290E5;
+}
+.product > figure{
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px #EF7BBA solid;
+}
+.order-footer{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+
+    border-top: 4px #C290E5 solid;
+}
+.order-footer > button{
+    width: 175px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    color: #EF7BBA;
+    font-weight: bold;
+
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.order-footer > button:nth-child(1){
+    background-color: #F7D955;
+    border: 4px #C3A006 solid;
+    color: #C3A006;
+}
+
+.order-footer > button:nth-child(2){
+    background-color: #9AE5E0;
+    border: 4px solid #75BAB6;
+    color: #75BAB6;
+}

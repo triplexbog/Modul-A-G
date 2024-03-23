@@ -1,0 +1,141 @@
+body{
+    background-color: #F9EEFF;
+    background-image: url("../images/back-admin-shift-create.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+section{
+    width: 100%;
+    height: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shift-title{
+    width: 100%;
+    height: 15%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.shift-title label{
+    display: flex;
+    flex-direction: column;
+}
+.shift-title label p{
+    font-size: 18px;
+    color: #EF7BBA;
+    font-weight: bold;
+}
+.shift-title label input{
+    margin-top: 15px;
+    padding-left: 5px;
+    width: 200px;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-bottom: 2px #EF7BBA solid;
+    background: transparent;
+
+    font-family: 'Inter', sans-serif;
+    color: #EF7BBA;
+    font-weight: bold;
+}
+.shift-title a{
+    font-weight: bold;
+    color: #EF7BBA;
+    text-decoration: none;
+    border-bottom: 2px #EF7BBA solid;
+}
+.workers{
+    width: 100%;
+    height: 85%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.workers > div{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.workers > div > p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #EF7BBA;
+    margin: 20px 0;
+}
+.shift-in,
+.shift-out{
+    width: 100%;
+    height: 90%;
+    border: 4px #EF7BBA solid;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.worker{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px #EF7BBA solid;
+}
+.worker figure{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    border: 2px #EF7BBA solid;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.worker-id,
+.worker-role{
+    font-size: 14px;
+    color: #EF7BBA;
+    font-weight: bold;
+}
+.worker-name{
+    color: #C290E5;
+    font-size: 22px;
+    font-weight: bold;
+}
+button{
+    margin: 30px 0;
+    width: 175px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    color: #EF7BBA;
+    font-weight: bold;
+
+    border-radius: 15px;
+    border: 2px #EF7BBA solid;
+    background-color: #F8B9E4;
+    outline: none;
+    cursor: pointer;
+}

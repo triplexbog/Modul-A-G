@@ -1,0 +1,78 @@
+body{
+    background-color: #F9EEFF;
+    background-image: url("../images/back-admin-user.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.back{
+    margin-top: 25px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    color: #EF7BBA;
+    font-weight: bold;
+
+    border-radius: 20px;
+    border: 2px #EF7BBA solid;
+    background-color: #F8B9E4;
+    outline: none;
+    cursor: pointer;
+}
+.users-area{
+    width: 75%;
+    height: 725px;
+
+    gap: 25px;
+    overflow-y: auto;
+}
+.user{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100px;
+    border: 2px #E9B9F3 solid;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.id{
+    color: #EF7BBA;
+    font-size: 18px;
+    border-bottom: 2px #EF7BBA solid;
+}
+.name{
+    font-size: 18px;
+    color: #C290E5;
+    font-weight: bold;
+}
+.role{
+    font-size: 18px;
+    color: #EF7BBA;
+    font-weight: bold;
+}
+.fired{
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #9AE5E0;
+    color: #F9EEFF;
+    border: none;
+    outline: none;
+}

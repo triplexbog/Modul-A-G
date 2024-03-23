@@ -1,0 +1,140 @@
+body{
+    overflow-x: hidden;
+    background-image: url("../images/back-create-order.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section > div:nth-child(1){
+    width: 90%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+section > div:nth-child(1) > div{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    color: #EF7BBA;
+    font-size: 24px;
+    font-weight: bold;
+}
+section > div:nth-child(2){
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+section > div:nth-child(2) > div{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section > div:nth-child(2) > div > p{
+    font-weight: bold;
+    color: #EF7BBA;
+    font-size: 24px;
+}
+.order-in,
+.order-out{
+    width: 90%;
+    height: 90%;
+    border: 4px #EF7BBA solid;
+    border-radius: 20px;
+}
+.product-in{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px #EF7BBA solid;
+}
+.product-in figure,
+.product-out figure{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    border: 2px #EF7BBA solid;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.product-in p{
+    display: flex;
+    flex-direction: column;
+}
+.product-count{
+    font-size: 14px;
+    color: #EF7BBA;
+    font-weight: bold;
+}
+.product-title{
+    color: #C290E5;
+    font-size: 22px;
+    font-weight: bold;
+}
+.product-out{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px #EF7BBA solid;
+}
+section > div:nth-child(3){
+    width: 90%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+button{
+    width: 175px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.order-save{
+    border: 2px #EF7BBA solid;
+    background-color: #F8B9E4;
+    color: #EF7BBA;
+}
+.order-reset{
+    background-color: #F7D955;
+    border: 4px #C3A006 solid;
+    color: #C3A006;
+}

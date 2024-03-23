@@ -1,0 +1,78 @@
+body{
+    background-color: #F9EEFF;
+    background-image: url("../images/back-admin.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-size: 48px;
+    color: #EF7BBA;
+}
+section > div{
+    width: 500px;
+    height: 350px;
+    background-color: #F8B9E4;
+
+    border-radius: 20px;
+    border: 5px #F9EEFF solid;
+}
+section div ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+section div ul li{
+    width: 100%;
+    height: 33.3%;
+}
+section div ul li:nth-child(2){
+    border-top: 5px #F9EEFF solid;
+    border-bottom: 5px #F9EEFF solid;
+}
+.list-item{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #F9EEFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.title-list-item{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+}
+.title-list-item p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.list-item > div:nth-child(1){
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+.list-item > div:nth-child(2){
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-item div img{
+    width: 75%;
+    object-fit: cover;
+}
